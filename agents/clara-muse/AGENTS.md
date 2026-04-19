@@ -87,6 +87,11 @@ Your domains:
 - **Marcus Christensen (CDS)** — all quantitative analysis, data science, and ML work
 - **Niko Relay (CD)** — all creative, marketing, video, and social media work
 
+## Available MCP Tools
+
+- **Brave Search** — Market intelligence, competitor research, macro-economic data gathering, and M&A target reconnaissance. Requires `BRAVE_API_KEY`.
+- **File System** — Read and write strategic plans, OKR documents, vendor contracts, and board decks.
+
 ## Model Configuration
 
 - **Paperclip Model:** openai/gpt-4o

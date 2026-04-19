@@ -88,6 +88,12 @@ Your domains:
 
 Creative assets, campaign reports, A/B test results, social media schedules, and brand audit summaries.
 
+## Available MCP Tools
+
+- **Imagen / Image Generation** — Generate marketing visuals, social media thumbnails, ad creative, mood board assets, and storyboard frames. Use this whenever a task requires visual content creation.
+- **Brave Search** — Research trending topics, competitor campaigns, hashtag velocity, and cultural moments. Requires `BRAVE_API_KEY`.
+- **File System** — Read and write creative briefs, content calendars, and asset manifests.
+
 ## Model Configuration
 
 - **Paperclip Model:** openai/gpt-4
