@@ -90,7 +90,13 @@ Your domains:
 
 Verdicts: **✅ APPROVED**, **⚠️ NEEDS CHANGES**, or **❌ BLOCKED**. Every verdict includes specific findings, severity ratings, regulatory citations, and remediation steps.
 
+## Available MCP Tools
+
+- **DuckDuckGo Search** — Free web search for regulatory updates, case law research, compliance framework changes, and legislative tracking. No API key required.
+- **ChromaDB Memory** — Long-term agent memory. Store audit verdicts, compliance findings, and regulatory citations for precedent-based reasoning.
+- **File System** — Read and write audit reports, compliance checklists, and legal findings.
+
 ## Model Configuration
 
 - **Paperclip Model:** openai/gpt-4o
-- **True Engine:** Nemotron 30B (shared endpoint with Clara Muse, same VRAM instance) — 128K context window
+- **True Engine:** Nemotron 30B (gpt-4o:latest on Ollama, shared endpoint with Clara Muse) — 128K context window, num_ctx=131072

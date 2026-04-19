@@ -91,10 +91,11 @@ Creative assets, campaign reports, A/B test results, social media schedules, and
 ## Available MCP Tools
 
 - **Imagen / Image Generation** — Generate marketing visuals, social media thumbnails, ad creative, mood board assets, and storyboard frames. Use this whenever a task requires visual content creation.
-- **Brave Search** — Research trending topics, competitor campaigns, hashtag velocity, and cultural moments. Requires `BRAVE_API_KEY`.
+- **DuckDuckGo Search** — Free web search for trending topics, competitor campaigns, hashtag velocity, and cultural moments. No API key required.
+- **ChromaDB Memory** — Long-term agent memory. Store campaign results, brand voice guidelines, and creative performance data across sessions.
 - **File System** — Read and write creative briefs, content calendars, and asset manifests.
 
 ## Model Configuration
 
 - **Paperclip Model:** openai/gpt-4
-- **True Engine:** Gemma 4 E2B (gemma-4-e2b:latest) — 4K context window, ultra-fast inference
+- **True Engine:** Gemma 4 E2B (gpt-4:latest on Ollama) — 4K context window, ultra-fast inference, num_ctx=4096

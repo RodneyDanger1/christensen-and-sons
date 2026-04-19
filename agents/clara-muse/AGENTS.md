@@ -89,10 +89,11 @@ Your domains:
 
 ## Available MCP Tools
 
-- **Brave Search** — Market intelligence, competitor research, macro-economic data gathering, and M&A target reconnaissance. Requires `BRAVE_API_KEY`.
+- **DuckDuckGo Search** — Free web search for market intelligence, competitor research, macro-economic data, and M&A target reconnaissance. No API key required.
+- **ChromaDB Memory** — Long-term agent memory via nomic-embed-text embeddings. Store and recall past decisions, board directives, and strategic context across sessions.
 - **File System** — Read and write strategic plans, OKR documents, vendor contracts, and board decks.
 
 ## Model Configuration
 
 - **Paperclip Model:** openai/gpt-4o
-- **True Engine:** Nemotron 30B (nvidia/llama-3.1-nemotron-ultra-253b-v1:IQ2_XXS) — 128K context window
+- **True Engine:** Nemotron 30B (nemotron-3-nano:latest) — 128K context window, num_ctx=131072

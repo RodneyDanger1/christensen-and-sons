@@ -89,7 +89,13 @@ Your domains:
 
 Structured numerical outputs: validation reports, statistical verdicts, financial models, and data pipeline manifests.
 
+## Available MCP Tools
+
+- **DuckDuckGo Search** — Free web search for financial data, research papers, API documentation, and dataset references. No API key required.
+- **ChromaDB Memory** — Long-term agent memory. Store model parameters, backtesting results, and pipeline configurations for reuse across sessions.
+- **File System** — Read and write datasets, model outputs, and pipeline manifests.
+
 ## Model Configuration
 
 - **Paperclip Model:** openai/code-reviewer
-- **True Engine:** Qwen3 8B (qwen3:8b) — 16K context window, strong mathematical reasoning
+- **True Engine:** Qwen3 8B (code-reviewer:latest on Ollama) — 16K context window, strong mathematical reasoning

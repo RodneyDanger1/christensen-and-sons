@@ -1,6 +1,6 @@
 # Christensen & Sons
 
-> **5 agents · 297 skills · 1 GPU** — A fully autonomous, self-hosted multi-agent enterprise running on a TensorDock A100 80GB. From Roblox game studios to Facebook community empires to SEC filings. Import and go.
+> **5 agents · 297 skills · 75 business verticals · 1 GPU** — A fully autonomous, self-hosted multi-agent enterprise running on a TensorDock A100 80GB with DuckDuckGo web search and ChromaDB long-term memory. Import and go.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Paperclip](https://img.shields.io/badge/Powered_by-Paperclip-blue)](https://github.com/paperclipai/paperclip)
@@ -19,7 +19,7 @@ npx paperclipai company import --from ./christensen-and-sons
 
 Christensen & Sons is not a single-product shop. It's a **holding company** — a portfolio of autonomous business verticals that share infrastructure, talent, and intelligence. Every vertical below is run by the same 5-agent team, each contributing their domain expertise.
 
-## Business Verticals (50)
+## Business Verticals (75)
 
 > Every vertical below is **reality-checked** — meaning each one maps directly to skills that already exist in this repo and models that can actually execute them. No vaporware.
 
@@ -229,6 +229,106 @@ Clara runs the SWOT analysis, Marcus builds cross-sectional comparisons and regr
 
 ---
 
+### 🔎 51. SEO & Search Rankings Consultancy *(Search + Memory)*
+Niko audits client sites with DuckDuckGo to check live rankings, keyword cannibalization, and competitor SERP positions. ChromaDB stores historical ranking data per client for trend analysis across months.
+> **Skills used:** seo-keyword-density-checker, seo-content-optimization, competitor-price-scraper, content-calendar-populator, campaign-performance-predictor
+
+### 📰 52. Real-Time News & Trend Analysis Bureau *(Search + Memory)*
+Agents search the web every cycle for breaking news in target verticals. ChromaDB stores every finding with timestamps, enabling Clara to detect trend acceleration patterns that one-off searches would miss.
+> **Skills used:** social-listening-aggregator, meme-trend-detector, real-time-trend-hijacking, scenario-planning-matrix, swot-analysis-generator
+
+### 🕵️ 53. Competitive Intelligence Agency *(Search + Memory)*
+Clara searches competitor websites, press releases, and job postings weekly. ChromaDB stores every data point, building a longitudinal competitor database that gets smarter over time.
+> **Skills used:** swot-analysis-generator, competitor-price-scraper, financial-statement-extractor, quarterly-competitor-analysis, scenario-planning-matrix
+
+### 🏷️ 54. Dropshipping & Arbitrage Operation *(Search + Memory)*
+Niko searches for trending products, Clara cross-references supplier pricing, Marcus calculates margins. ChromaDB remembers which products performed well and which suppliers were reliable.
+> **Skills used:** supply-chain-control-tower, demand-forecasting-engine, competitor-price-scraper, logistics-route-planner, dynamic-pricing-copywriter
+
+### 📎 55. Affiliate Marketing Network *(Search + Memory)*
+Niko searches for high-converting affiliate programs, writes SEO content, and tracks commission structures. ChromaDB logs every program's historical performance for portfolio optimization.
+> **Skills used:** seo-keyword-density-checker, ad-copy-variant-generator, campaign-performance-predictor, viral-coefficient-calculator, content-calendar-populator
+
+### ✍️ 56. Grant Writing & Funding Service *(Search + Memory)*
+Clara searches for active grants (government, foundation, corporate). ChromaDB stores past applications, reviewer feedback, and success rates per funding body for continuous improvement.
+> **Skills used:** regulatory-filing-compiler, financial-statement-extractor, scenario-planning-matrix, board-deck-synthesizer, risk-framework-builder
+
+### 🔬 57. Open Source Intelligence (OSINT) Firm *(Search + Memory)*
+All agents search the public web for client-requested intelligence. ChromaDB builds persistent dossiers on targets — companies, individuals, supply chains — that compound in value over time.
+> **Skills used:** social-listening-aggregator, fraud-anomaly-detector, nda-breach-scanner, graph-database-query-optimizer, insider-threat-analysis
+
+### 🏛️ 58. Regulatory Change Monitoring *(Search + Memory)*
+Elias searches government websites daily for new regulations, proposed rules, and enforcement actions. ChromaDB stores every change with affected jurisdiction + severity, building a compliance timeline.
+> **Skills used:** regulatory-filing-compiler, policy-drift-detector, iso-standards-mapper, gdpr-consent-tracker, eu-ai-act-analyzer
+
+### 📊 59. Due Diligence-as-a-Service *(Search + Memory)*
+Clara + Elias search public filings, court records, and news for M&A targets. ChromaDB stores findings per deal, enabling rapid re-assessment when new information surfaces.
+> **Skills used:** acquisition-target-evaluator, financial-statement-extractor, credit-risk-scorer, swot-analysis-generator, insider-trading-monitor
+
+### 🌍 60. International Market Entry Research *(Search + Memory)*
+Clara searches trade databases, tariff schedules, and local business regulations for target countries. ChromaDB stores country profiles that deepen with each research cycle.
+> **Skills used:** macroeconomic-data-scraper, econometric-forecasting-engine, logistics-route-planner, tax-compliance-validator, zoning-law-interpreter
+
+### 🎯 61. Product Hunt & Launch Agency *(Search + Memory)*
+Niko searches ProductHunt, HackerNews, and Reddit for launch timing intelligence. ChromaDB stores launch outcome data — what messaging worked, what time slots performed, what audiences converted.
+> **Skills used:** video-hook-optimizer, ad-copy-variant-generator, landing-page-ab-tester, viral-coefficient-calculator, campaign-performance-predictor
+
+### 🏘️ 62. Real Estate Market Intelligence *(Search + Memory)*
+Marcus searches MLS listings, Zillow, and county assessor data. ChromaDB stores price histories per zip code, enabling predictive models that improve with every data collection cycle.
+> **Skills used:** demand-forecasting-engine, time-series-forecaster, regression-model-builder, zoning-law-interpreter, real-estate-acquisition-check
+
+### 📱 63. App Store Optimization (ASO) Agency *(Search + Memory)*
+Niko searches app stores for keyword rankings, competitor screenshots, and review sentiment. ChromaDB stores ranking history per client app, tracking the impact of each optimization.
+> **Skills used:** seo-keyword-density-checker, competitor-price-scraper, brand-voice-calibrator, campaign-performance-predictor, ui-animation-curator
+
+### 🧑‍🎓 64. Academic Research Assistant Service *(Search + Memory)*
+Marcus searches arXiv, PubMed, and Google Scholar for relevant papers. ChromaDB builds a persistent literature database per research topic that grows with each query.
+> **Skills used:** hypothesis-testing-framework, regression-model-builder, natural-language-to-sql, unstructured-data-normalizer, cross-sectional-analyzer
+
+### 💊 65. Pharmaceutical Market Intelligence *(Search + Memory)*
+Marcus + Elias search FDA databases, clinical trial registries, and pharma news. ChromaDB stores drug pipeline data, patent expiries, and competitive landscapes for long-term tracking.
+> **Skills used:** clinical-trial-tracker, fda-software-validator, molecular-docking-simulator, biomarker-discovery-tool, regulatory-filing-compiler
+
+### 🗳️ 66. Political Campaign Analytics *(Search + Memory)*
+Marcus searches polling data, FEC filings, and social media sentiment. ChromaDB stores every data point per race, enabling trend modeling that improves as election day approaches.
+> **Skills used:** time-series-forecaster, bayesian-inference-modeler, social-listening-aggregator, demographic-targeting-analyzer, audience-segmentation-mapping
+
+### 🌱 67. ESG & Sustainability Reporting *(Search + Memory)*
+Elias searches for ESG framework updates (GRI, SASB, TCFD). ChromaDB stores client sustainability metrics year-over-year, enabling automated progress reports and gap analysis.
+> **Skills used:** regulatory-filing-compiler, policy-drift-detector, iso-standards-mapper, audit-trail-validator, board-deck-synthesizer
+
+### 🔗 68. Supply Chain Transparency Platform *(Search + Memory)*
+Clara searches supplier databases, shipping trackers, and trade compliance lists. ChromaDB builds a persistent supplier risk profile that compounds with every audit cycle.
+> **Skills used:** supply-chain-control-tower, procurement-vendor-scorer, vendor-negotiation-strategist, third-party-risk-assessor, logistics-route-planner
+
+### 🎪 69. Sponsorship & Brand Partnership Brokerage *(Search + Memory)*
+Niko searches for brand partnership opportunities, sponsorship rates, and audience overlap data. ChromaDB stores deal history — what worked, what ROI each partnership delivered.
+> **Skills used:** influencer-roi-calculator, media-mix-allocator, brand-voice-calibrator, campaign-performance-predictor, vendor-negotiation-strategist
+
+### 🏥 70. Healthcare Price Transparency Tool *(Search + Memory)*
+Marcus searches hospital pricing disclosures, insurance formularies, and CMS data. ChromaDB stores price data per procedure per facility, enabling cost comparison tools that improve continuously.
+> **Skills used:** regression-model-builder, natural-language-to-sql, unstructured-data-normalizer, hipaa-violation-detector, demand-forecasting-engine
+
+### 🔒 71. Dark Web & Brand Protection Monitoring *(Search + Memory)*
+Elias searches for brand mentions, credential leaks, and counterfeit listings. ChromaDB stores every finding with timestamps, building a threat intelligence timeline per client.
+> **Skills used:** fraud-anomaly-detector, nda-breach-scanner, insider-threat-analysis, incident-response-logger, cyber-incident-reporting
+
+### 📋 72. Job Board & Talent Intelligence Platform *(Search + Memory)*
+Clara searches job boards for salary benchmarks, skill demand trends, and competitor hiring patterns. ChromaDB stores labor market data over time for workforce planning.
+> **Skills used:** headcount-allocation-modeler, demographic-targeting-analyzer, cross-sectional-analyzer, regression-model-builder, scenario-planning-matrix
+
+### 🏪 73. Franchise Expansion Advisory *(Search + Memory)*
+Clara searches demographic data, commercial real estate, and competitor density. ChromaDB stores location analysis results per market, enabling data-driven franchise territory planning.
+> **Skills used:** demand-forecasting-engine, zoning-law-interpreter, logistics-route-planner, capex-roi-calculator, scenario-planning-matrix
+
+### 📡 74. API Marketplace & Integration Brokerage *(Search + Memory)*
+Viktor searches RapidAPI, ProgrammableWeb, and GitHub for API solutions. ChromaDB stores API reliability scores, pricing history, and integration complexity ratings for future reference.
+> **Skills used:** api-rate-limit-handler, dependency-injection-mapper, tech-debt-quantifier, oauth2-flow-implementer, database-migration-generator
+
+### 🧾 75. Invoice Factoring & AR Management *(Search + Memory)*
+Marcus + Elias search credit databases and payment histories. ChromaDB stores client creditworthiness scores that update with every factoring cycle, reducing default risk over time.
+> **Skills used:** credit-risk-scorer, cash-flow-predictor, liquidity-ratio-calculator, fraud-anomaly-detector, financial-discrepancy-flag
+
 ## Org Chart
 
 ```
@@ -266,14 +366,13 @@ Clara (CEO) and Elias (CLO) both use `openai/gpt-4o` which routes to the **same*
 
 ## Available MCP Tools
 
-Agents can access these MCP integrations when configured:
-
-| Tool | Used By | Purpose |
-|---|---|---|
-| **WeppyRobloxMCP** | Viktor | Direct Roblox Studio manipulation (insert, script, playtest) |
-| **Brave Search** | Clara, Niko, Marcus | Web research, competitive intelligence, trend monitoring |
-| **Imagen / Image Gen** | Niko | Generate marketing visuals, thumbnails, social assets |
-| **File System** | All | Read/write project files, configs, and data |
+| Tool | Used By | Purpose | Cost |
+|---|---|---|---|
+| **DuckDuckGo Search** | All 5 agents | Web search for real-time data, competitor research, docs | **Free** |
+| **ChromaDB + nomic-embed-text** | All 5 agents | Long-term semantic memory across sessions | **Free** (self-hosted) |
+| **WeppyRobloxMCP** | Viktor | Direct Roblox Studio manipulation (insert, script, playtest) | **Free** |
+| **Imagen / Image Gen** | Niko | Generate marketing visuals, thumbnails, social assets | API key |
+| **File System** | All | Read/write project files, configs, and data | **Free** |
 
 ## Directory Structure
 
@@ -281,6 +380,7 @@ Agents can access these MCP integrations when configured:
 christensen-and-sons/
 ├── COMPANY.md              # Company metadata (agentcompanies/v1)
 ├── .paperclip.yaml         # Paperclip config (paperclip/v1)
+├── DISASTER_RECOVERY.md    # Full stack rebuild instructions
 ├── README.md               # This file
 ├── LICENSE                  # MIT
 ├── .gitignore

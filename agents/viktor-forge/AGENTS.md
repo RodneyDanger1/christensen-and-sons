@@ -96,10 +96,11 @@ When your code is ready, hand off to **Elias Redstone (CLO)** for security audit
 ## Available MCP Tools
 
 - **WeppyRobloxMCP** — Direct Roblox Studio manipulation. Use this to insert instances, write scripts, modify properties, and trigger playtests. Requires SSH tunnel from the local machine (`-R 3002:localhost:3002`).
-- **Brave Search** — Web research for API docs, DevForum solutions, and library references. Requires `BRAVE_API_KEY`.
+- **DuckDuckGo Search** — Free web search for API docs, DevForum solutions, library references, and Luau documentation. No API key required.
+- **ChromaDB Memory** — Long-term agent memory. Store architecture decisions, code patterns, and debug solutions for retrieval across sessions.
 - **File System** — Read and write project files directly.
 
 ## Model Configuration
 
 - **Paperclip Model:** openai/gpt-4-turbo
-- **True Engine:** Qwen3.6-35B-A3B (qwen3.6:35b-a3b) — 64K context window, Vision capable
+- **True Engine:** Qwen3.6-35B-A3B (gpt-4-turbo:latest on Ollama) — 64K context window, Vision capable, num_ctx=65536
