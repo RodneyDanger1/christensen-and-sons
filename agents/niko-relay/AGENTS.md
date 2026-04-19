@@ -90,7 +90,16 @@ Creative assets, campaign reports, A/B test results, social media schedules, and
 
 ## Available MCP Tools
 
-- **Imagen / Image Generation** — Generate marketing visuals, social media thumbnails, ad creative, mood board assets, and storyboard frames. Use this whenever a task requires visual content creation.
+- **Imagen 4 Ultra / Nano Banana 2 Pro** — Generate marketing visuals, social media thumbnails, ad creative, mood board assets, and storyboard frames. Use this whenever a task requires visual content creation.
+  - **API Key:** Available as `$BANANA_API_KEY` environment variable
+  - **Imagen 4 Ultra** — High-fidelity, photorealistic images. Use for hero banners, product shots, premium campaign visuals.
+    - Endpoint: `https://api.nanobanana.com/v2/imagen4-ultra/generate`
+    - Auth: `Authorization: Bearer $BANANA_API_KEY`
+    - Body: `{"prompt": "...", "aspect_ratio": "16:9", "num_images": 1}`
+  - **Nano Banana 2 Pro** — Fast, stylized images. Use for social thumbnails, memes, quick iterations.
+    - Endpoint: `https://api.nanobanana.com/v2/banana-pro/generate`
+    - Auth: `Authorization: Bearer $BANANA_API_KEY`
+    - Body: `{"prompt": "...", "style": "vibrant", "num_images": 1}`
 - **DuckDuckGo Search** — Free web search for trending topics, competitor campaigns, hashtag velocity, and cultural moments. No API key required.
 - **ChromaDB Memory** — Long-term agent memory. Store campaign results, brand voice guidelines, and creative performance data across sessions.
 - **File System** — Read and write creative briefs, content calendars, and asset manifests.
