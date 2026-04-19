@@ -98,4 +98,4 @@ Creative assets, campaign reports, A/B test results, social media schedules, and
 ## Model Configuration
 
 - **Paperclip Model:** openai/gpt-4
-- **True Engine:** Gemma 4 E2B (gpt-4:latest on Ollama) — 4K context window, ultra-fast inference, num_ctx=4096
+- **True Engine:** Gemma 4 E2B (gpt-4:latest on Ollama) — 8K context window, ultra-fast inference, num_ctx=8192

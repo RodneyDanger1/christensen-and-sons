@@ -45,8 +45,8 @@ After=network-online.target
 
 [Service]
 ExecStart=/usr/local/bin/ollama serve
-User=ollama
-Group=ollama
+User=user
+Group=user
 Restart=always
 RestartSec=3
 Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin"
@@ -85,8 +85,8 @@ Environment="OLLAMA_GPU_OVERHEAD=2147483648"
 |---|---|---|---|---|---|
 | `gpt-4o` | **Nemotron 30B** (nemotron-3-nano) | nemotron-3-nano | **131072** (128K) | ~26 GB | Clara Muse (CEO) |
 | `gpt-4-turbo` | **Qwen3.6-35B-A3B** | qwen3.5 | **65536** (64K) | ~25 GB | Viktor Forge (CTO) |
-| `gpt-4` | **Gemma 4 E2B** | gemma4 | **4096** (4K) | ~6 GB | Niko Relay (CD) |
-| `code-reviewer` | **Qwen3 8B** | qwen3 (chat template) | default | ~5 GB | Marcus Christensen (CDS) |
+| `gpt-4` | **Gemma 4 E2B** | gemma4 | **8192** (8K) | ~7.3 GB | Niko Relay (CD) |
+| `code-reviewer` | **Qwen3 8B** | qwen3 (chat template) | **16384** (16K) | ~7.6 GB | Marcus Christensen (CDS) |
 | `gpt-4o` *(shared)* | **Nemotron 30B** *(same endpoint)* | nemotron-3-nano | 128K | 0 extra | Elias Redstone (CLO) |
 | `nomic-embed-text` | **nomic-embed-text** | — | **8192** | ~0.3 GB | Shared RAG/ChromaDB |
 
@@ -133,7 +133,7 @@ PARAMETER min_p 0
 ```
 RENDERER gemma4
 PARSER gemma4
-PARAMETER num_ctx 4096
+PARAMETER num_ctx 8192
 PARAMETER temperature 1
 PARAMETER top_k 64
 PARAMETER top_p 0.95
@@ -334,7 +334,7 @@ ollama create gpt-4o-mini -f /tmp/gpt-4-turbo.Modelfile
 # Niko — gpt-4 → Gemma 4 E2B
 cat << 'EOF' > /tmp/gpt-4.Modelfile
 FROM gemma4:e2b
-PARAMETER num_ctx 4096
+PARAMETER num_ctx 8192
 PARAMETER temperature 1
 PARAMETER top_k 64
 PARAMETER top_p 0.95
@@ -421,21 +421,20 @@ chmod +x /home/user/backup_memory.sh
 
 ---
 
-## 9. VRAM Budget
+## 9. VRAM Budget (measured from `ollama /api/ps`)
 
-| Model | VRAM |
-|---|---|
-| Nemotron 30B (128K ctx) | ~26 GB |
-| Qwen3.6-35B-A3B (64K ctx) | ~25 GB |
-| Gemma 4 E2B (4K ctx) | ~6 GB |
-| Qwen3 8B (default ctx) | ~5 GB |
-| nomic-embed-text (8K ctx) | ~0.3 GB |
-| GPU overhead reserved | 2 GB |
-| **Total** | **~64.3 GB** |
-| **Available** | **~15.7 GB** |
-| **A100 Capacity** | **80 GB** |
+| Model | Context | VRAM (actual) |
+|---|---|---|
+| Nemotron 30B (`gpt-4o`) | 128K | **24.7 GB** |
+| Qwen3.6-35B-A3B (`gpt-4-turbo`) | 64K | **25.9 GB** |
+| Gemma 4 E2B (`gpt-4`) | 8K | **7.3 GB** |
+| Qwen3 8B (`code-reviewer`) | 16K | **7.6 GB** |
+| nomic-embed-text | 8K | **0.6 GB** |
+| **Total** | | **66.1 GB** |
+| **Free** | | **12.5 GB** |
+| **A100 Capacity** | | **80 GB** |
 
-Current actual VRAM usage (from `nvidia-smi`): **69,082 MiB / 81,920 MiB**
+Current actual VRAM usage (from `nvidia-smi`): **69,112 MiB / 81,920 MiB** (12,808 MiB free)
 
 ---
 
