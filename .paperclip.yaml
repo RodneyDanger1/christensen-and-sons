@@ -1,6 +1,10 @@
 schema: paperclip/v1
 agents:
   clara-muse:
+    adapter:
+      type: opencode_local
+      config:
+        model: openai/gpt-4o
     inputs:
       env:
         OPENAI_BASE_URL:
@@ -10,6 +14,10 @@ agents:
           kind: secret
           requirement: required
   elias-redstone:
+    adapter:
+      type: opencode_local
+      config:
+        model: openai/gpt-4o
     inputs:
       env:
         OPENAI_BASE_URL:
@@ -19,6 +27,10 @@ agents:
           kind: secret
           requirement: required
   marcus-christensen:
+    adapter:
+      type: opencode_local
+      config:
+        model: openai/code-reviewer
     inputs:
       env:
         OPENAI_BASE_URL:
@@ -28,6 +40,10 @@ agents:
           kind: secret
           requirement: required
   niko-relay:
+    adapter:
+      type: opencode_local
+      config:
+        model: openai/gpt-4
     inputs:
       env:
         OPENAI_BASE_URL:
@@ -37,6 +53,10 @@ agents:
           kind: secret
           requirement: required
   viktor-forge:
+    adapter:
+      type: opencode_local
+      config:
+        model: openai/gpt-4-turbo
     inputs:
       env:
         OPENAI_BASE_URL:
