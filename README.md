@@ -19,104 +19,213 @@ npx paperclipai company import --from ./christensen-and-sons
 
 Christensen & Sons is not a single-product shop. It's a **holding company** — a portfolio of autonomous business verticals that share infrastructure, talent, and intelligence. Every vertical below is run by the same 5-agent team, each contributing their domain expertise.
 
-## Business Verticals
+## Business Verticals (50)
 
-### 🎮 Roblox Game Studio
-Build, ship, and monetize Roblox experiences end-to-end. Viktor writes Luau with `--!strict`, Clara designs the economy math, Elias audits for COPPA/ToS compliance, Niko creates the marketing assets, and Marcus models the retention curves.
+> Every vertical below is **reality-checked** — meaning each one maps directly to skills that already exist in this repo and models that can actually execute them. No vaporware.
 
-- Gacha/loot box verification (10M simulated pulls)
-- Dynamic difficulty adjustment & player retention loops
-- LiveOps event balancing (battle passes, daily rewards)
-- Crafting economy tuning & virtual inflation correction
-- Multiplayer netcode sync, matchmaking, leaderboards
+---
 
-### 📱 Social Media & Content Agency
-Full-service content creation, scheduling, and campaign management across every platform. Niko runs the creative pipeline while Marcus measures what's working.
+### 🎮 1. Roblox Game Studio
+Viktor writes Luau with `--!strict`, Clara designs economy math, Elias audits COPPA/ToS, Niko creates marketing assets, Marcus models retention curves. Full Roblox Studio control via WeppyRobloxMCP.
+> **Skills used:** gacha-pull-simulator, dynamic-difficulty-adjuster, battle-pass-progression-modeler, crafting-recipe-balancer, luau-memory-leak-detector, game-loop-optimizer, economy-inflation-detector, multiplayer-netcode-sync, matchmaking-latency-minimizer, leaderboard-ranking-engine
 
-- Cross-platform video cuts (9:16, 1:1, 16:9) with hook optimization
-- A/B testing on landing pages, ad copy, and media mix allocation
-- Social media autopilot with hashtag velocity tracking
-- Real-time trend hijacking (meme detection → on-brand posts)
-- Influencer ROI calculation and UGC authenticity scoring
-- Crisis communications protocol (sentiment drop → instant PR response)
+### 📱 2. Social Media & Content Agency
+Full-service content creation, scheduling, and campaign management across every platform. A/B testing, trend hijacking, influencer audits, crisis comms.
+> **Skills used:** ad-copy-variant-generator, landing-page-ab-tester, media-mix-allocator, hashtag-velocity-tracker, content-calendar-populator, social-listening-aggregator, influencer-roi-calculator, ugc-authenticity-scorer, brand-voice-calibrator
 
-### 👥 Niche Facebook Community Management
-Build and scale hyper-targeted Facebook Groups and Pages as lead generation engines. Clara handles the strategy, Niko creates the content calendar, and Marcus measures engagement velocity.
+### 👥 3. Niche Facebook Community + Fourthwall Merch Empire
+Build hyper-targeted Facebook Groups/Pages as organic lead-gen engines. Clara strategies the community growth flywheel, Niko creates the content calendar and designs merch mockups via Imagen, Viktor builds the Fourthwall storefront integration, Marcus tracks viral coefficients, Elias ensures FTC compliance on merch claims and advertising disclosures.
+> **Skills used:** content-calendar-populator, audience-segmentation-mapping, viral-coefficient-calculator, brand-voice-calibrator, demographic-targeting-analyzer, wireframe-to-html-prototype, seo-keyword-density-checker, campaign-performance-predictor, omnichannel-message-sync
 
-- Content calendar population based on optimal engagement times
-- Audience segmentation mapping (demographic → psychographic)
-- Viral loop optimization (referral coefficient tracking)
-- Brand voice calibration across all touchpoints
-- Community sentiment monitoring and crisis response
+### 🏠 4. Real Estate & Auction Platform (Grand Bluff)
+MN Stat 330/513.55 compliant auction house. Viktor builds real-time bidding, Elias ensures statutory compliance, Clara manages vendor contracts, Niko produces listing media.
+> **Skills used:** zoning-law-interpreter, osha-safety-reporter, dynamic-pricing-copywriter, seo-keyword-density-checker, vendor-negotiation-strategist
 
-### 🏠 Real Estate & Auction Platform (Grand Bluff)
-Build and operate auction platforms compliant with MN Stat 330/513.55. Viktor builds the real-time bidding engine, Elias ensures statutory compliance, Clara manages vendor contracts, and Niko produces the listing media.
+### 💰 5. Quantitative Finance & Trading Desk
+Options pricing, portfolio beta, yield curves, credit risk — all computed locally on your own hardware. Zero cloud API dependencies for sensitive financial data.
+> **Skills used:** options-pricing-black-scholes, monte-carlo-risk-simulator, high-frequency-trade-analyzer, yield-curve-analyzer, credit-risk-scorer, portfolio-beta-calculator, cash-flow-predictor
 
-- Zoning law interpretation for warehouse/commercial leases
-- OSHA safety reporting for physical facilities
-- Real estate acquisition compliance checks
-- Dynamic pricing banners with scarcity messaging
-- SEO-optimized property listing content
+### 🧬 6. Biotech & Research Lab
+Genomic pipelines, drug screening, and clinical trial analysis entirely on-premises. Marcus computes, Elias enforces HIPAA/FDA.
+> **Skills used:** dna-sequence-aligner, genomic-variant-caller, multi-omics-integrator, biomarker-discovery-tool, clinical-trial-tracker, hipaa-violation-detector, fda-software-validator
 
-### 💰 Quantitative Finance & Trading
-Marcus runs the math. Options pricing, portfolio beta, yield curves, credit risk — all computed locally on your own hardware. No cloud API dependencies for sensitive financial data.
+### 🌐 7. Web Development Agency
+Full-stack Next.js/Node shop. Viktor builds, Niko prototypes, Elias audits security, Marcus builds the data layer.
+> **Skills used:** wireframe-to-html-prototype, ui-animation-curator, database-migration-generator, oauth2-flow-implementer, websocket-event-broadcaster, api-rate-limit-handler
 
-- Black-Scholes options pricing and Greeks recalculation
-- Monte Carlo risk simulation (millions of scenarios)
-- High-frequency trade pattern analysis
-- Yield curve modeling and bond market recalibration
-- Credit risk scoring via logistic regression
-- Corporate liquidity forecasting
+### 📊 8. SaaS Operations Consulting
+OKR alignment, vendor negotiations, shift optimization, SaaS spend audits, and policy drift detection.
+> **Skills used:** okr-alignment-checker, procurement-vendor-scorer, vendor-negotiation-strategist, digital-transformation-tracker, policy-drift-detector, iso-standards-mapper
 
-### 🧬 Biotech & Research Lab
-Run genomic pipelines, drug screening, and clinical trial analysis entirely on-premises. Marcus handles the computation, Elias enforces HIPAA/FDA compliance.
+### ⚖️ 9. Legal & Compliance-as-a-Service
+Elias as a standalone compliance engine. SEC filings, whistleblower triage, NDA enforcement, GDPR/CCPA.
+> **Skills used:** sarbanes-oxley-auditor, regulatory-filing-compiler, gdpr-consent-tracker, ccpa-compliance-verifier, nda-breach-scanner, whistle-blower-triage, insider-trading-monitor
 
-- DNA sequence alignment (FASTQ → reference genome)
-- Genomic variant calling (SNP identification)
-- Multi-omics integration (genomic + transcriptomic + proteomic)
-- Biomarker discovery and Bayesian inference
-- Clinical trial efficacy testing (hypothesis testing, ANOVA)
-- HIPAA violation detection and FDA software validation
+### 🎬 10. Video Production Studio
+Full post-production pipeline — raw footage to platform-ready cuts with spatial audio and color grading.
+> **Skills used:** audio-stem-separator, podcast-show-notes-writer, storyboard-frame-generator, spatial-audio-panner, b-roll-footage-selector, color-grading-suggester, voiceover-timing-director
 
-### 🌐 Web Development Agency
-Viktor builds production Next.js/Node applications. Clara scopes the product, Niko designs the UI prototypes, Elias audits for security, and Marcus builds the data layer.
+---
 
-- Wireframe-to-HTML prototype generation
-- UI animation curation (easing curves, motion design)
-- Typography accessibility auditing (WCAG compliance)
-- Database zero-downtime migrations
-- WebSocket stream recovery and real-time state sync
-- OAuth2 flow implementation
+### 🛒 11. Shopify / E-Commerce Store
+Viktor builds the storefront, Niko creates product photography and ad creative, Clara handles pricing elasticity and supply chain, Marcus forecasts demand and inventory turnover.
+> **Skills used:** wireframe-to-html-prototype, competitor-price-scraper, inventory-turnover-predictor, demand-forecasting-engine, dynamic-pricing-copywriter, seo-keyword-density-checker
 
-### 📊 SaaS Operations & Enterprise Consulting
-Clara runs the enterprise brain — OKR alignment, vendor negotiations, shift optimization, and SaaS spend audits. Elias provides the compliance backbone.
+### 📦 12. Amazon FBA / Private Label Brand
+Clara manages supply chain logistics and vendor scoring, Niko optimizes product listings and ad creative, Marcus forecasts demand seasonality, Elias checks import/customs compliance.
+> **Skills used:** supply-chain-control-tower, demand-forecasting-engine, competitor-price-scraper, procurement-vendor-scorer, logistics-route-planner, brand-voice-calibrator
 
-- OKR cascade validation (department → enterprise alignment)
-- SOC2 continuous compliance with evidence collection
-- Vendor contract renewal with data-backed negotiation leverage
-- Meeting deflation protocol (calendar density optimization)
-- SaaS shadow IT discovery and license termination
-- Policy drift detection and ISO 27001 mapping
+### 🎁 13. Subscription Box Service
+Clara models the logistics and churn math, Niko designs the unboxing experience and social content, Marcus predicts renewal rates, Viktor builds the recurring billing backend.
+> **Skills used:** demand-forecasting-engine, logistics-route-planner, content-calendar-populator, viral-coefficient-calculator, campaign-performance-predictor, database-migration-generator
 
-### ⚖️ Legal & Compliance-as-a-Service
-Elias operates as a standalone compliance engine. SEC filings, whistleblower triage, NDA enforcement — all automated with Nemotron 30B's 128K context for ingesting dense legal documents.
+### 🖨️ 14. Print-on-Demand / Merch Store
+Niko generates product designs via Imagen, Clara handles pricing strategy and margin analysis, Marcus forecasts bestsellers, Viktor integrates with print APIs.
+> **Skills used:** capex-roi-calculator, competitor-price-scraper, wireframe-to-html-prototype, mood-board-assembler, brand-voice-calibrator, demand-forecasting-engine
 
-- Sarbanes-Oxley auditing and 10-Q/10-K drafting
-- GDPR consent tracking and CCPA deletion verification
-- Algorithmic bias detection (EU AI Act classification)
-- KYC document verification and AML scanning
-- Insider trading correlation analysis
-- Whistleblower escalation with ethics board reporting
+### 📧 15. Newsletter / Substack Business
+Niko writes content and optimizes SEO, Clara plans the growth strategy and monetization, Marcus tracks subscriber cohort analytics, Elias reviews for defamation/libel risk.
+> **Skills used:** seo-keyword-density-checker, content-calendar-populator, brand-voice-calibrator, defamation-risk-assessor, campaign-performance-predictor, audience-segmentation-mapping
 
-### 🎬 Video Production Studio
-Niko handles the full post-production pipeline — from raw footage to platform-ready cuts with spatial audio and color grading.
+### 🎙️ 16. Podcast Network
+Niko handles full post-production (stem separation, show notes, timestamps, promo clips), Clara books guests and plans content strategy, Marcus analyzes listener retention curves.
+> **Skills used:** audio-stem-separator, podcast-show-notes-writer, script-pacing-analyzer, content-calendar-populator, seo-keyword-density-checker, campaign-performance-predictor
 
-- Podcast post-production (stem separation, show notes, promo clips)
-- Automated storyboard generation from scripts
-- Immersive audio design (spatial panning for VR/AR)
-- Event B-roll curation from massive footage archives
-- Color grading suggestions based on brand psychology
-- Voiceover-to-video synchronization
+### 📹 17. YouTube Channel Management
+Niko optimizes thumbnails, hooks (first 3 seconds), and SEO titles. Clara plans the content roadmap. Marcus analyzes watch time and CTR patterns. Viktor builds automation tools.
+> **Skills used:** video-hook-optimizer, seo-keyword-density-checker, script-pacing-analyzer, content-calendar-populator, campaign-performance-predictor, aspect-ratio-adaptor
+
+### 🎵 18. TikTok / Short-Form Growth Agency
+Niko's trend hijacking and meme detection skills operate at platform speed. Rapid creative iteration powered by Gemma 4's ultra-fast inference.
+> **Skills used:** meme-trend-detector, video-hook-optimizer, hashtag-velocity-tracker, aspect-ratio-adaptor, brand-voice-calibrator, viral-coefficient-calculator
+
+### 🤖 19. AI Automation Agency
+Build and sell AI-powered workflows for clients. Viktor codes the automations, Clara scopes projects and handles client relations, Niko markets the agency.
+> **Skills used:** etl-pipeline-generator, batch-process-orchestrator, multi-agent-delegation-node, wireframe-to-html-prototype, seo-keyword-density-checker, ad-copy-variant-generator
+
+### 🏗️ 20. Indie Mobile Game Studio
+Same engine as Roblox but broader — any game platform. Viktor writes the ECS architecture, NPC behavior, and matchmaking. Clara designs the economy. Marcus simulates drop rates.
+> **Skills used:** ecs-architecture-scaffolder, npc-behavior-tree-builder, dynamic-difficulty-adjuster, gacha-pull-simulator, drop-rate-probability-calc, guild-matching-algorithm, pvp-elo-rating-calculator
+
+### 🤝 21. Discord Community & Bot Business
+Viktor builds custom Discord bots (moderation, tickets, economy), Niko manages community engagement and content, Clara tracks growth KPIs.
+> **Skills used:** redis-pubsub-connector, websocket-event-broadcaster, socket-connection-heartbeat, brand-voice-calibrator, content-calendar-populator, viral-coefficient-calculator
+
+### 📚 22. Online Course / Info Product Platform
+Viktor builds the LMS, Niko creates course landing pages and video content, Clara prices the products and designs the funnel, Elias handles terms of service and refund compliance.
+> **Skills used:** wireframe-to-html-prototype, video-hook-optimizer, seo-keyword-density-checker, campaign-performance-predictor, landing-page-ab-tester, defamation-risk-assessor
+
+### 🏥 23. Telehealth / Health Tech Platform
+Viktor builds the patient portal, Marcus models clinical outcomes, Elias enforces HIPAA and FDA compliance at every layer, Clara manages the operational workflow.
+> **Skills used:** hipaa-violation-detector, fda-software-validator, clinical-trial-tracker, database-migration-generator, oauth2-flow-implementer, access-control-auditor, pii-scrubber-pro
+
+### 💳 24. Fintech / Payment Processing
+Viktor builds the payment backend, Elias enforces PCI-DSS and KYC/AML compliance, Marcus runs fraud detection models, Clara manages vendor contracts with payment processors.
+> **Skills used:** pci-dss-compliance-check, kyc-document-verifier, anti-money-laundering-scanner, fraud-anomaly-detector, cryptographic-hash-verifier, financial-discrepancy-flag
+
+### 🪙 25. Crypto / DeFi Analytics Platform
+Marcus runs on-chain analytics, models portfolio risk, and detects fraud anomalies. Elias enforces AML scanning and SEC compliance. Viktor builds the dashboard backend.
+> **Skills used:** cryptographic-hash-verifier, fraud-anomaly-detector, anti-money-laundering-scanner, time-series-forecaster, yield-curve-analyzer, regulatory-filing-compiler
+
+### 📈 26. Data Analytics Consultancy
+Marcus is the entire product. ETL pipelines, data warehouse builds, NL-to-SQL queries, regression modeling, and time-series forecasting — sold as a service.
+> **Skills used:** natural-language-to-sql, regression-model-builder, etl-pipeline-generator, data-lake-cataloger, unstructured-data-normalizer, graph-database-query-optimizer
+
+### 🧮 27. Bookkeeping & Accounting Firm
+Clara runs the quarterly fiscal close, Marcus computes ratios and variance analysis, Elias ensures SOX and SEC compliance, Viktor builds the client portal.
+> **Skills used:** quarter-end-close-accelerator, budget-variance-analyzer, liquidity-ratio-calculator, cash-flow-predictor, sarbanes-oxley-auditor, board-deck-synthesizer
+
+### 💼 28. Tax Preparation Service
+Elias validates multi-jurisdiction tax compliance, Marcus runs the calculations, Clara manages the client pipeline and pricing, Viktor builds the intake forms.
+> **Skills used:** tax-compliance-validator, financial-statement-extractor, regulatory-filing-compiler, wireframe-to-html-prototype, pii-scrubber-pro
+
+### 🏢 29. HR Tech / Recruiting Platform
+Clara models headcount allocation and shift optimization, Viktor builds the ATS, Elias handles employment law compliance and bias detection, Niko creates employer brand content.
+> **Skills used:** headcount-allocation-modeler, shift-scheduling-optimizer, algorithmic-bias-detector, wireframe-to-html-prototype, brand-voice-calibrator, priority-inversion-detector
+
+### 🏘️ 30. Property Management Software
+Viktor builds the tenant portal, Clara manages operational logistics, Elias interprets zoning laws and lease compliance, Niko creates listing content, Marcus models occupancy forecasts.
+> **Skills used:** zoning-law-interpreter, database-migration-generator, logistics-route-planner, seo-keyword-density-checker, demand-forecasting-engine, osha-safety-reporter
+
+### 🛡️ 31. Cybersecurity Audit Firm
+Elias runs the entire practice — zero-trust architecture reviews, access control audits, SOC2 evidence collection, incident response logging, and shadow IT discovery.
+> **Skills used:** zero-trust-architecture-reviewer, access-control-auditor, soc2-evidence-collector, incident-response-logger, shadow-it-discoverer, pci-dss-compliance-check
+
+### 🔍 32. Patent & IP Analytics Firm
+Elias scans for IP leaks in code and content, Marcus analyzes patent landscapes with graph databases, Clara manages the client relationships and competitive SWOT analysis.
+> **Skills used:** intellectual-property-shield, nda-breach-scanner, legal-citation-generator, graph-database-query-optimizer, swot-analysis-generator, cross-sectional-analyzer
+
+### 🏭 33. Manufacturing / IoT Operations
+Clara manages the supply chain control tower, fleet telemetry, and predictive maintenance. Marcus identifies bottlenecks. Viktor processes sensor data.
+> **Skills used:** supply-chain-control-tower, fleet-telemetry-analyzer, predictive-maintenance-scheduler, bottleneck-identifier, sensor-fusion-aggregator, resource-leveling-heuristic
+
+### 🚚 34. Logistics & Fleet Management
+Clara optimizes delivery routes (TSP algorithms), manages dispatcher logistics, and balances warehouse loads. Marcus models demand. Viktor builds the tracking backend.
+> **Skills used:** logistics-route-planner, dispatcher-logistics-optimizer, resource-leveling-heuristic, demand-forecasting-engine, inventory-turnover-predictor, supply-chain-control-tower
+
+### 🎰 35. Sports Analytics & Prediction Models
+Marcus runs the math — Monte Carlo simulations, Bayesian inference, time-series forecasting on player/team performance. Elias ensures gambling compliance where applicable.
+> **Skills used:** monte-carlo-risk-simulator, bayesian-inference-modeler, time-series-forecaster, regression-model-builder, hypothesis-testing-framework, cross-sectional-analyzer
+
+### 🏪 36. Local Business Marketing Agency
+Niko creates the creative (social posts, video, SEO), Clara handles client operations, Marcus measures ROI, Viktor builds landing pages. Everything a Main Street business needs.
+> **Skills used:** seo-keyword-density-checker, ad-copy-variant-generator, landing-page-ab-tester, wireframe-to-html-prototype, content-calendar-populator, media-mix-allocator
+
+### 🍕 37. Restaurant / Food Delivery Platform
+Viktor builds the ordering and delivery backend, Clara optimizes logistics routes and shift scheduling, Niko creates the menu design and marketing, Elias handles food safety compliance.
+> **Skills used:** wireframe-to-html-prototype, logistics-route-planner, shift-scheduling-optimizer, seo-keyword-density-checker, dynamic-pricing-copywriter, brand-voice-calibrator
+
+### 🎓 38. EdTech / LMS Platform
+Viktor builds the learning management system, Niko creates course content and landing pages, Clara manages the curriculum roadmap, Marcus tracks student outcome metrics.
+> **Skills used:** wireframe-to-html-prototype, video-hook-optimizer, content-calendar-populator, regression-model-builder, campaign-performance-predictor, oauth2-flow-implementer
+
+### 💪 39. Fitness / Wellness App
+Viktor builds the app backend (workout tracking, progress photos), Niko designs the UI and creates motivational content, Marcus models user retention and churn, Clara handles subscriptions.
+> **Skills used:** wireframe-to-html-prototype, ui-animation-curator, ux-copy-micro-interaction, campaign-performance-predictor, database-migration-generator, oauth2-flow-implementer
+
+### 🎪 40. Event Management Platform
+Clara handles logistics and vendor contracts, Viktor builds the ticketing backend, Niko creates event marketing, Marcus forecasts attendance and pricing elasticity.
+> **Skills used:** logistics-route-planner, vendor-negotiation-strategist, wireframe-to-html-prototype, demand-forecasting-engine, dynamic-pricing-copywriter, omnichannel-message-sync
+
+### 🤖 41. Customer Support Automation
+Viktor builds chatbot flows and WebSocket integrations, Clara designs the escalation logic, Niko writes the UX micro-copy for error messages and tooltips, Marcus measures resolution rates.
+> **Skills used:** websocket-event-broadcaster, socket-connection-heartbeat, ux-copy-micro-interaction, scenario-planning-matrix, batch-process-orchestrator, operational-efficiency-scorer
+
+### 📞 42. B2B Lead Generation Agency
+Niko runs the outbound creative (ads, landing pages, email), Clara strategies the ICP and pipeline, Marcus scores leads and forecasts conversion, Viktor builds the CRM integrations.
+> **Skills used:** audience-segmentation-mapping, demographic-targeting-analyzer, ad-copy-variant-generator, landing-page-ab-tester, campaign-performance-predictor, content-calendar-populator
+
+### 🧪 43. Clinical Research Organization (CRO)
+Marcus runs the entire clinical trial pipeline — hypothesis testing, ANOVA, patient cohort tracking. Elias enforces HIPAA/FDA at every step. Clara manages the operations.
+> **Skills used:** hypothesis-testing-framework, anova-variance-tester, clinical-trial-tracker, hipaa-violation-detector, fda-software-validator, biomarker-discovery-tool
+
+### ⛏️ 44. Compliance Audit Firm
+Elias productized. Continuous SOC2, ISO 27001 mapping, policy drift detection, and audit trail validation — sold as monthly retainer services to enterprise clients.
+> **Skills used:** soc2-evidence-collector, iso-standards-mapper, policy-drift-detector, audit-trail-validator, access-control-auditor, data-retention-monitor
+
+### 🌾 45. AgriTech / Precision Farming
+Marcus analyzes sensor telemetry, spectral data, and weather patterns. Clara manages the supply chain. Viktor builds the IoT dashboard. Niko creates farmer-facing content.
+> **Skills used:** sensor-fusion-aggregator, spectral-analysis-tool, time-series-forecaster, demand-forecasting-engine, wireframe-to-html-prototype, logistics-route-planner
+
+### 🏦 46. Insurance Underwriting Tech
+Marcus builds risk models (Monte Carlo, Bayesian), Elias validates regulatory compliance, Clara manages the operations and vendor contracts, Viktor builds the policyholder portal.
+> **Skills used:** monte-carlo-risk-simulator, bayesian-inference-modeler, credit-risk-scorer, risk-framework-builder, regulatory-filing-compiler, database-migration-generator
+
+### 🖥️ 47. White-Label SaaS Platform
+Viktor customizes and deploys white-label SaaS products, Clara handles vendor negotiations and pricing, Elias reviews third-party data contracts, Niko brands each instance.
+> **Skills used:** dependency-injection-mapper, tech-debt-quantifier, vendor-negotiation-strategist, third-party-risk-assessor, brand-voice-calibrator, wireframe-to-html-prototype
+
+### 🔬 48. Drug Discovery Pipeline
+Marcus runs molecular docking simulations and ML model hyper-tuning. Elias enforces FDA software validation. Clara manages the R&D budget and strategic pivots.
+> **Skills used:** molecular-docking-simulator, machine-learning-hyper-tuner, genomic-variant-caller, fda-software-validator, capacity-planning-simulator, capex-roi-calculator
+
+### 🎧 49. Streaming / Twitch Operations
+Niko manages overlays, highlight reels, and clip distribution. Viktor builds chat bots and alert integrations. Clara handles sponsorship negotiations. Marcus tracks viewer analytics.
+> **Skills used:** video-hook-optimizer, aspect-ratio-adaptor, b-roll-footage-selector, redis-pubsub-connector, websocket-event-broadcaster, influencer-roi-calculator
+
+### 📊 50. Market Research & Competitive Intelligence Firm
+Clara runs the SWOT analysis, Marcus builds cross-sectional comparisons and regression models, Niko monitors competitor campaigns, Elias reviews for NDA and IP risks.
+> **Skills used:** swot-analysis-generator, cross-sectional-analyzer, competitor-price-scraper, financial-statement-extractor, nda-breach-scanner, scenario-planning-matrix
 
 ---
 
