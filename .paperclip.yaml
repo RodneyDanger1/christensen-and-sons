@@ -9,10 +9,10 @@ agents:
       env:
         OPENAI_BASE_URL:
           kind: config
-          requirement: required
+          requirement: optional
         OPENAI_API_KEY:
-          kind: secret
-          requirement: required
+          kind: config
+          requirement: optional
   elias-redstone:
     adapter:
       type: opencode_local
@@ -22,10 +22,10 @@ agents:
       env:
         OPENAI_BASE_URL:
           kind: config
-          requirement: required
+          requirement: optional
         OPENAI_API_KEY:
-          kind: secret
-          requirement: required
+          kind: config
+          requirement: optional
   marcus-christensen:
     adapter:
       type: opencode_local
@@ -35,10 +35,10 @@ agents:
       env:
         OPENAI_BASE_URL:
           kind: config
-          requirement: required
+          requirement: optional
         OPENAI_API_KEY:
-          kind: secret
-          requirement: required
+          kind: config
+          requirement: optional
   niko-relay:
     adapter:
       type: opencode_local
@@ -48,10 +48,10 @@ agents:
       env:
         OPENAI_BASE_URL:
           kind: config
-          requirement: required
+          requirement: optional
         OPENAI_API_KEY:
-          kind: secret
-          requirement: required
+          kind: config
+          requirement: optional
   viktor-forge:
     adapter:
       type: opencode_local
@@ -61,7 +61,7 @@ agents:
       env:
         OPENAI_BASE_URL:
           kind: config
-          requirement: required
+          requirement: optional
         OPENAI_API_KEY:
-          kind: secret
-          requirement: required
+          kind: config
+          requirement: optional
