@@ -1,0 +1,47 @@
+schema: paperclip/v1
+agents:
+  clara-muse:
+    inputs:
+      env:
+        OPENAI_BASE_URL:
+          kind: config
+          requirement: required
+        OPENAI_API_KEY:
+          kind: secret
+          requirement: required
+  elias-redstone:
+    inputs:
+      env:
+        OPENAI_BASE_URL:
+          kind: config
+          requirement: required
+        OPENAI_API_KEY:
+          kind: secret
+          requirement: required
+  marcus-christensen:
+    inputs:
+      env:
+        OPENAI_BASE_URL:
+          kind: config
+          requirement: required
+        OPENAI_API_KEY:
+          kind: secret
+          requirement: required
+  niko-relay:
+    inputs:
+      env:
+        OPENAI_BASE_URL:
+          kind: config
+          requirement: required
+        OPENAI_API_KEY:
+          kind: secret
+          requirement: required
+  viktor-forge:
+    inputs:
+      env:
+        OPENAI_BASE_URL:
+          kind: config
+          requirement: required
+        OPENAI_API_KEY:
+          kind: secret
+          requirement: required
